@@ -3,7 +3,7 @@ import React from 'react';
 function Hero() {
   return (
     <div className="bg-light text-dark py-5 ">
-      <div className="d-flex justify-content-between flex-wrap flex-md-nowrap w-75 mx-auto">
+      <div className="d-flex justify-content-between flex-wrap flex-md-nowrap w-75 mx-auto gap-5">
         <div className="text-body-secondary">
           <h1 className="display-4 fw-bold">
             Find Your Perfect <p className="text-primary fw-bold">Companion</p>
@@ -34,10 +34,10 @@ function Hero() {
           </div>
         </div>
 
-        <div className="wave">
+        <div className="">
           <img
-            className="rounded-4 m-5"
-            src="https://img.freepik.com/premium-photo/group-cats-dogs-sitting-ledge_662214-439171.jpg"
+            className="rounded-4 img-fluid w-100 mt-5"
+            src="https://img.freepik.com/premium-photo/group-cats-dogs-sitting-ledge_662214-439171.jpg?w=900"
             alt=""
           />
         </div>
