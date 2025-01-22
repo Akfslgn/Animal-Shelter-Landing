@@ -79,7 +79,7 @@ function App() {
             name={pet.name}
             shortDescription={pet.shortDescription}
             fullDescription={pet.fullDescription}
-            src={pet.image}
+            petImage={pet.image}
           />
         ))}
       </CardContainer>

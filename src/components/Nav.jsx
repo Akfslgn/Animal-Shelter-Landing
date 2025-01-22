@@ -1,6 +1,6 @@
 function Nav() {
   return (
-    <nav className="navbar navbar-dark bg-primary navbar-expand-lg">
+    <nav className="navbar navbar-dark bg-primary navbar-expand-lg w-100">
       <div className="container-fluid">
         <a className="navbar-brand " href="#">
           <h1 className="fw-bold ms-5">Happy Tails</h1>

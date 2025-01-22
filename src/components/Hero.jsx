@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero() {
   return (
-    <div className="bg-light text-dark py-5 ">
+    <div className="bg-light text-dark py-5">
       <div className="d-flex justify-content-between flex-wrap flex-md-nowrap w-75 mx-auto gap-5">
         <div className="text-body-secondary">
           <h1 className="display-4 fw-bold">
@@ -34,9 +34,9 @@ function Hero() {
           </div>
         </div>
 
-        <div className="">
+        <div className="d-none d-xl-block me-3">
           <img
-            className="rounded-4 img-fluid w-100 mt-5"
+            className="rounded-4 img-fluid w-100 mt-3"
             src="https://img.freepik.com/premium-photo/group-cats-dogs-sitting-ledge_662214-439171.jpg?w=900"
             alt=""
           />
