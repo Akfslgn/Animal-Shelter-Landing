@@ -7,7 +7,7 @@ const Card = ({ petImage, name, fullDescription, shortDescription }) => {
         <img src={petImage} className="card-img-top h-50" alt="..." />
         <div className="card-body">
           <h5 className="card-title fw-bold fs-3">{name}</h5>
-          <p className="card-text fw-medium">{shortDescription}</p>
+          <p className="card-text  fw-medium">{shortDescription}</p> <hr />
           <p className="card-text">{fullDescription}</p>
         </div>
         <div className="card-footer d-flex justify-content-center">
