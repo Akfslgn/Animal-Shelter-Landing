@@ -2,8 +2,8 @@ import React from 'react';
 
 const Card = ({ petImage, name, fullDescription, shortDescription }) => {
   return (
-    <div className=" col-lg-3 col-md-4 col-sm-6 mb-4 m-2">
-      <div className="card h-100">
+    <div className=" col-lg-3 col-md-4 col-sm-6">
+      <div className="card col-11 mx-auto h-100 ">
         <img src={petImage} className="card-img-top h-50" alt="..." />
         <div className="card-body">
           <h5 className="card-title fw-bold fs-3">{name}</h5>
