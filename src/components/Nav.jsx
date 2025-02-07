@@ -1,3 +1,5 @@
+import { Link } from 'react-router';
+
 function Nav() {
   return (
     <nav className="navbar navbar-dark bg-primary navbar-expand-lg w-100">
@@ -18,15 +20,20 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto me-2">
-            <a className="nav-link active" aria-current="page" href="#">
+            <Link
+              to="/home"
+              className="nav-link active"
+              aria-current="page"
+              href="#"
+            >
               Home
-            </a>
-            <a className="nav-link" href="#">
+            </Link>
+            <Link to="/adopt" className="nav-link active" href="#">
               Adopt
-            </a>
-            <a className="nav-link" href="#">
+            </Link>
+            <Link to="/contact-us" className="nav-link active" href="#">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </div>
